@@ -22,10 +22,10 @@ public class Movement : MonoBehaviour
         move = 0f;
 
         if (Keyboard.current.aKey.isPressed)
-            move = -1f;
+            move = -2f;
 
         if (Keyboard.current.dKey.isPressed)
-            move = 1f;
+            move = 2f;
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
             jump = true;
