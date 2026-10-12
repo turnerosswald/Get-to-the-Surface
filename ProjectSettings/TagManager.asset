@@ -3,14 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
+<<<<<<< HEAD
   tags:
   - Ground
   - DeathCond
+=======
+  tags: []
+>>>>>>> f720f5b2f7441482a800fa415eb3e16621e38659
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - player
   - Water
   - UI
   - 
@@ -43,6 +47,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< HEAD
+=======
+  - name: player
+    uniqueID: 1925389023
+    locked: 0
+>>>>>>> f720f5b2f7441482a800fa415eb3e16621e38659
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []
