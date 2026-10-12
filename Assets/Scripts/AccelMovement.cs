@@ -14,6 +14,8 @@ public class AccelMovement : MonoBehaviour
     public float speedDisplay;
     private CharacterController controller;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private bool isGrounded = true;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -28,9 +30,10 @@ public class AccelMovement : MonoBehaviour
 
     public void OnJump(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.performed && isGrounded)
         {
             rb.AddForce(Vector2.up * jumpHeight, ForceMode2D.Impulse);
+            isGrounded = false;
         }
     }
 
@@ -47,5 +50,20 @@ public class AccelMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(-maxSpeed, rb.linearVelocity.y);
         }
         speedDisplay = rb.linearVelocity.x;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("DeathCond"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
