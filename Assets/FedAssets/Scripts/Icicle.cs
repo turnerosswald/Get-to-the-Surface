@@ -4,6 +4,7 @@ public class Icicle : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public Rigidbody2D rb;
+    public GameManager gameManager;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -21,7 +22,13 @@ public class Icicle : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             // Handle icicle hitting the ground
-            Destroy(collision.gameObject); // Destroy the icicle object
+            gameManager.GameOver(); // Call the GameOver method in the GameManager
+            // You can add additional logic here, such as playing a sound effect or destroying the icicle after a delay
+        }
+        if (collision.gameObject.CompareTag("Environment") || collision.gameObject.CompareTag("Obstacles"))
+        {
+            // Handle icicle hitting the ground
+            Destroy(gameObject); // Destroy the icicle object
             // You can add additional logic here, such as playing a sound effect or destroying the icicle after a delay
         }
     }

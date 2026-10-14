@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Pitfall : MonoBehaviour
 {
-
+    public GameManager gameManager;
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -11,6 +11,7 @@ public class Pitfall : MonoBehaviour
             Debug.Log("Player has fallen into the pitfall!");
             Destroy(other.gameObject); // Destroy the player object (or you can implement a respawn mechanism)
             // You can add additional logic here, such as reducing health or respawning the player
+            gameManager.GameOver(); // Call the GameOver method in the GameManager
         }
     }
 }
