@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e01ebff95f08a4f9797fca291b6a2b2e
+guid: 14b699250bf5e46f5939cb129ce2ba85
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6657326931816702284
-    second: SurfaceBlock_0
+      213: 4578591244471777430
+    second: Wind_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -77,7 +77,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SurfaceBlock_0
+      name: Wind_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c41639c8293936c50800000000000000
-      internalID: 6657326931816702284
+      spriteID: 698347a7a7c6a8f30800000000000000
+      internalID: 4578591244471777430
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SurfaceBlock_0: 6657326931816702284
+      Wind_0: 4578591244471777430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

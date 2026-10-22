@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class SurfaceGoal : MonoBehaviour
 {
-    [SerializeField] private string message = "You made it to the surface!";
+    [SerializeField] private string message = "You reached the Surface!";
     private bool reached;
     private float finishTime;
 
