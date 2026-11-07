@@ -1,29 +1,31 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerHealth : MonoBehaviour
+public class ShipHealth : MonoBehaviour
 {
+    [Header("Health")]
     public float maxHealth = 100f;
     public float drainTime = 30f;          // seconds to drain from full with no damage
 
+    [Header("Asteroid damage")]
     public float asteroidDamage = 15f;
     public float hitCooldown = 0.5f;       // stops one collision from damaging every frame
 
-    public Slider healthBar;
+    [Header("UI")]
+    public Image fillImage;                // the liquid image (Image Type: Filled, Horizontal, Left)
+    public int pixelSteps = 0;             // 0 = smooth drain. Set to 376 for a pixel-by-pixel drain
 
     float health;
     float lastHitTime = -999f;
     bool dead;
 
+    ShipShake shake;                       // NEW (1): goes with the other fields, above Start()
+
     void Start()
     {
         health = maxHealth;
-        if (healthBar != null)
-        {
-            healthBar.minValue = 0;
-            healthBar.maxValue = maxHealth;
-            healthBar.value = health;
-        }
+        shake = GetComponent<ShipShake>(); // NEW (2): inside Start()
+        UpdateBar();
     }
 
     void Update()
@@ -51,6 +53,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (dead) return;
         health = Mathf.Max(0f, health - amount);
+        if (shake != null) shake.Shake();  // NEW (3): inside TakeDamage(), after health goes down
         UpdateBar();
         if (health <= 0f) Die();
     }
@@ -64,7 +67,13 @@ public class PlayerHealth : MonoBehaviour
 
     void UpdateBar()
     {
-        if (healthBar != null) healthBar.value = health;
+        if (fillImage == null) return;
+
+        float t = Mathf.Clamp01(health / maxHealth);
+        if (pixelSteps > 0)
+            t = Mathf.Ceil(t * pixelSteps) / pixelSteps;   // snap to whole pixels
+
+        fillImage.fillAmount = t;
     }
 
     void Die()
