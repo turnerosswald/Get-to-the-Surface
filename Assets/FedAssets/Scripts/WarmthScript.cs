@@ -6,6 +6,7 @@ public class WarmthScript : MonoBehaviour
 
     public float hp = 15f;
     public Slider warmthSlider;
+    public GameManager gameManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,7 +20,8 @@ public class WarmthScript : MonoBehaviour
         warmthSlider.value = hp;
         if (hp <= 0)
         {
-            Destroy(gameObject);
+            gameManager.GameOver();
+            
         }
         else
         {
