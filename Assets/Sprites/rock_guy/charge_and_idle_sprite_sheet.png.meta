@@ -1,0 +1,951 @@
+fileFormatVersion: 2
+guid: 2ef70c8b0e60f3a449259c53e5fb11b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5512099200495357714
+    second: charge_and_idle_sprite_sheet_0
+  - first:
+      213: -2725789403416192477
+    second: charge_and_idle_sprite_sheet_1
+  - first:
+      213: 3615711502096690347
+    second: charge_and_idle_sprite_sheet_2
+  - first:
+      213: -3973517927240828115
+    second: charge_and_idle_sprite_sheet_3
+  - first:
+      213: -6652440690306682356
+    second: charge_and_idle_sprite_sheet_4
+  - first:
+      213: 3248334983994028520
+    second: charge_and_idle_sprite_sheet_5
+  - first:
+      213: -1217504848918896724
+    second: charge_and_idle_sprite_sheet_6
+  - first:
+      213: -8771674233229267855
+    second: charge_and_idle_sprite_sheet_7
+  - first:
+      213: 8427487772907575875
+    second: charge_and_idle_sprite_sheet_8
+  - first:
+      213: -5137439044552015190
+    second: charge_and_idle_sprite_sheet_9
+  - first:
+      213: -7709001726428239792
+    second: charge_and_idle_sprite_sheet_10
+  - first:
+      213: -6848724304691816196
+    second: charge_and_idle_sprite_sheet_11
+  - first:
+      213: -1857786123143708401
+    second: charge_and_idle_sprite_sheet_12
+  - first:
+      213: -28348663436070568
+    second: charge_and_idle_sprite_sheet_13
+  - first:
+      213: -1632900564710479739
+    second: charge_and_idle_sprite_sheet_14
+  - first:
+      213: -1902830910723169372
+    second: charge_and_idle_sprite_sheet_15
+  - first:
+      213: -6693678390589759385
+    second: charge_and_idle_sprite_sheet_16
+  - first:
+      213: -1430292360038149030
+    second: charge_and_idle_sprite_sheet_17
+  - first:
+      213: 39578342130444924
+    second: charge_and_idle_sprite_sheet_18
+  - first:
+      213: -8073338871225253339
+    second: charge_and_idle_sprite_sheet_19
+  - first:
+      213: -3207021647206650056
+    second: charge_and_idle_sprite_sheet_20
+  - first:
+      213: 6461429189906470160
+    second: charge_and_idle_sprite_sheet_21
+  - first:
+      213: 1485472757906173324
+    second: charge_and_idle_sprite_sheet_22
+  - first:
+      213: 4306399872337939000
+    second: charge_and_idle_sprite_sheet_23
+  - first:
+      213: 7845551819529304998
+    second: charge_and_idle_sprite_sheet_24
+  - first:
+      213: 2352077704775185380
+    second: charge_and_idle_sprite_sheet_25
+  - first:
+      213: -4818743639735177742
+    second: charge_and_idle_sprite_sheet_26
+  - first:
+      213: 3873941191982765938
+    second: charge_and_idle_sprite_sheet_27
+  - first:
+      213: 6061090436332949626
+    second: charge_and_idle_sprite_sheet_28
+  - first:
+      213: 6177074719145831310
+    second: charge_and_idle_sprite_sheet_29
+  - first:
+      213: -7541925921477454142
+    second: charge_and_idle_sprite_sheet_30
+  - first:
+      213: 9055915441930739619
+    second: charge_and_idle_sprite_sheet_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 101
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f8d3cb409ee7c40800000000000000
+      internalID: 5512099200495357714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 114
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a9adcbafc0c2ad0800000000000000
+      internalID: -2725789403416192477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 100
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac64cc44769d2230800000000000000
+      internalID: 3615711502096690347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 113
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bf92e6f7a3bd8c0800000000000000
+      internalID: -3973517927240828115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 106
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c027ae43078cda3a0800000000000000
+      internalID: -6652440690306682356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 112
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e130702577641d20800000000000000
+      internalID: 3248334983994028520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 111
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf9fdf5acd8a1fe0800000000000000
+      internalID: -1217504848918896724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 95
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c2cea52c0c44680800000000000000
+      internalID: -8771674233229267855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a9a1d8a7374f470800000000000000
+      internalID: 8427487772907575875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa24146886624b8b0800000000000000
+      internalID: -5137439044552015190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 95
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0582f5b16cf140590800000000000000
+      internalID: -7709001726428239792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8924ee78174f0a0800000000000000
+      internalID: -6848724304691816196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 95
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f018e5d2d51d736e0800000000000000
+      internalID: -1857786123143708401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 95
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85139027a094b9ff0800000000000000
+      internalID: -28348663436070568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 95
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588a5ee7695c659e0800000000000000
+      internalID: -1632900564710479739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 95
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a366ba4e59c795e0800000000000000
+      internalID: -1902830910723169372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 95
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7606038e7f64b13a0800000000000000
+      internalID: -6693678390589759385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5498f23da4962ce0800000000000000
+      internalID: -1430292360038149030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 63
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7aeb7fda4c9c8000800000000000000
+      internalID: 39578342130444924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 63
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522044d221db5ff80800000000000000
+      internalID: -8073338871225253339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 63
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f624badce5e73d0800000000000000
+      internalID: -3207021647206650056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 63
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01517b53d9b9ba950800000000000000
+      internalID: 6461429189906470160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d648a5a957d9410800000000000000
+      internalID: 1485472757906173324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a8d7b1ed763cb30800000000000000
+      internalID: 4306399872337939000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 31
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abb6f5ffcff0ec60800000000000000
+      internalID: 7845551819529304998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 31
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3bd3de53244a020800000000000000
+      internalID: 2352077704775185380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 31
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd69e1c032602db0800000000000000
+      internalID: -4818743639735177742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277d2e43df003c530800000000000000
+      internalID: 3873941191982765938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70942983a15d1450800000000000000
+      internalID: 6061090436332949626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8babb1cab069b550800000000000000
+      internalID: 6177074719145831310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c696005552b55790800000000000000
+      internalID: -7541925921477454142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_and_idle_sprite_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af91483d131dad70800000000000000
+      internalID: 9055915441930739619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      charge_and_idle_sprite_sheet_0: 5512099200495357714
+      charge_and_idle_sprite_sheet_1: -2725789403416192477
+      charge_and_idle_sprite_sheet_10: -7709001726428239792
+      charge_and_idle_sprite_sheet_11: -6848724304691816196
+      charge_and_idle_sprite_sheet_12: -1857786123143708401
+      charge_and_idle_sprite_sheet_13: -28348663436070568
+      charge_and_idle_sprite_sheet_14: -1632900564710479739
+      charge_and_idle_sprite_sheet_15: -1902830910723169372
+      charge_and_idle_sprite_sheet_16: -6693678390589759385
+      charge_and_idle_sprite_sheet_17: -1430292360038149030
+      charge_and_idle_sprite_sheet_18: 39578342130444924
+      charge_and_idle_sprite_sheet_19: -8073338871225253339
+      charge_and_idle_sprite_sheet_2: 3615711502096690347
+      charge_and_idle_sprite_sheet_20: -3207021647206650056
+      charge_and_idle_sprite_sheet_21: 6461429189906470160
+      charge_and_idle_sprite_sheet_22: 1485472757906173324
+      charge_and_idle_sprite_sheet_23: 4306399872337939000
+      charge_and_idle_sprite_sheet_24: 7845551819529304998
+      charge_and_idle_sprite_sheet_25: 2352077704775185380
+      charge_and_idle_sprite_sheet_26: -4818743639735177742
+      charge_and_idle_sprite_sheet_27: 3873941191982765938
+      charge_and_idle_sprite_sheet_28: 6061090436332949626
+      charge_and_idle_sprite_sheet_29: 6177074719145831310
+      charge_and_idle_sprite_sheet_3: -3973517927240828115
+      charge_and_idle_sprite_sheet_30: -7541925921477454142
+      charge_and_idle_sprite_sheet_31: 9055915441930739619
+      charge_and_idle_sprite_sheet_4: -6652440690306682356
+      charge_and_idle_sprite_sheet_5: 3248334983994028520
+      charge_and_idle_sprite_sheet_6: -1217504848918896724
+      charge_and_idle_sprite_sheet_7: -8771674233229267855
+      charge_and_idle_sprite_sheet_8: 8427487772907575875
+      charge_and_idle_sprite_sheet_9: -5137439044552015190
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
